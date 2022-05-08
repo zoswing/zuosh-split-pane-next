@@ -11,6 +11,7 @@ export interface Props {
   maxSize?: Size;
   defaultSize?: Size;
   size?: Size;
+  children?:any;
   split?: 'vertical' | 'horizontal';
   onDragStarted?: () => void;
   onDragFinished?: () => void;
@@ -55,6 +56,7 @@ export interface PaneProps {
   initialSize?: Size;
   minSize?: Size;
   maxSize?: Size;
+  children?:any;
   resizersSize?: Size;
   innerRef?: any;
   index?: number;
